@@ -18,6 +18,7 @@
         width: 50%;
         margin: 8px 0px;
     }
+
     div#form > h1{
         font-size: 1.6em;
     }
@@ -27,7 +28,14 @@
     }
     form > div.field{
         display: block;
-        margin-bottom: 15px;
+        margin-bottom: 1px;
+    }
+    div.field > input{
+        border: 0px;
+        width: calc(100% - 55px);
+        height: 100%;
+        padding-top: 0px;
+
     }
     form > input[type=submit]{
         font-size: 1.4em;
@@ -55,19 +63,18 @@
     }
     div#form > p {
         font-size: 1.1em;
-        padding-bottom: 10px;
         margin: 10px 0px;
     }
     form > div.field{
         display: block;
-        margin-bottom: 15px;
+        margin-bottom: 10px;
     }
     div.field > input{
         border: 0px;
         width: calc(100% - 55px);
         height: 100%;
-        padding-top: 12px;
-    
+        padding-top: 0px;
+
     }
     form > input[type=submit]{
         font-size: 1.5em;
@@ -113,9 +120,7 @@
     div.field > input{
         border: 0px;
         width: calc(100% - 55px);
-        height: 100%;
-        padding-top: 15px;
-    
+        height: 100%;   
     }
     
 }
