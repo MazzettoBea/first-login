@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    body{
+        background-image: linear-gradient(to top, #4e1600, #de9204);
+    }
+    section#login{
+        width: 70vw;
+        height: 350px;
+    }
+    section#login > div#image{
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+    section#login > div#form{
+        float: right;
+        width: 50%;
+        margin: 8px 0px;
+    }
+    div#form > h1{
+        font-size: 1.6em;
+    }
+    div#form > p {
+        font-size: 1em;
+        margin: 10px 0px;
+    }
+    form > div.field{
+        display: block;
+        margin-bottom: 15px;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    body{
+        background-image: linear-gradient(to top, #4e1600, #de9204);
+    }
+    section#login{
+        width: 900px;
+        height: 350px;
+    }
+    section#login > div#image{
+        float: left;
+        width: 60%;
+        height: 100%;
+    }
+    section#login > div#form{
+        float: right;
+        width: 40%;
+    }
+    div#form > h1 {
+        font-size: 1.8em;
+    }
+    div#form > p {
+        font-size: 1.1em;
+        padding-bottom: 10px;
+        margin: 10px 0px;
+    }
+    form > div.field{
+        display: block;
+        margin-bottom: 15px;
+    }
+    div.field > input{
+        border: 0px;
+        width: calc(100% - 55px);
+        height: 100%;
+        padding-top: 12px;
+    
+    }
+    
+}
+@media screen and (min-width: 1200px){
+    body{
+        background-image: linear-gradient(to top, #4e1600, #de9204);
+    }
+    section#login{
+        width: 900px;
+        height: 350px;
+    }
+    section#login > div#image{
+        float: left;
+        width: 60%;
+        height: 100%;
+    }
+    section#login > div#form{
+        float: right;
+        width: 40%;
+    }
+    div#form{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    div#form > h1 {
+        font-size: 2em;
+    }
+    div#form > p {
+        font-size: 1.2em;
+        margin: 10px 0px;
+    }
+    form > div.field{
+        display: block;
+        margin-bottom: 10px;
+    }
+    form > div.field{
+        display: block;
+        margin-bottom: 15px;
+    }
+    div.field > input{
+        border: 0px;
+        width: calc(100% - 55px);
+        height: 100%;
+        padding-top: 15px;
+    
+    }
+    
+}
